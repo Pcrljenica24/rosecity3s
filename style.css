@@ -121,7 +121,7 @@ header a:hover {
 
 #showcase1 {
   min-height: 400px;
-  background: url('/img/ROSECITY.THREES-10.jpg') no-repeat center;
+  background: url('/img/ROSECITY.THREES-10.1.jpg') no-repeat center;
   /*background: #ffffff;*/
   background-size: contain;
   text-align: left;
@@ -218,68 +218,6 @@ footer a {
   color: #7cff66;
 }
 
-/* Full-width input fields */
-input[type=text], input[type=email] {
-    width: 100%;
-    padding: 15px;
-    margin: 5px 0 50px 0;
-    display: inline-block;
-    border: none;
-    background: #ffffff;
-}
-
-input[type=text]:focus, input[type=email]:focus {
-    background-color: #ddd;
-    outline: none;
-}
-
-hr {
-    border: 1px solid #f1f1f1;
-    margin-bottom: 25px;
-}
-
-/* Set a style for all buttons */
-button {
-    background-color: #4CAF50;
-    color: white;
-    padding: 14px 20px;
-    margin: 8px 0;
-    border: none;
-    cursor: pointer;
-    width: 100%;
-    opacity: 0.9;
-}
-
-button:hover {
-    opacity:1;
-}
-
-/* Extra styles for the cancel button */
-.cancelbtn {
-    padding: 14px 20px;
-    background-color: #f44336;
-}
-
-/* Float cancel and signup buttons and add an equal width */
-.cancelbtn, .signupbtn {
-  float: left;
-  width: 50%;
-}
-
-/* Add padding to container elements */
-.container {
-    padding: 16px;
-}
-
-/* Clear floats */
-.clearfix::after {
-    content: "";
-    clear: both;
-    display: table;
-}
-
-
-
 @media(max-width: 768px){
   header #branding,
   header nav,
@@ -294,10 +232,6 @@ button:hover {
     width: 100%;
   }
 
-  /* Change styles for cancel button and signup button on extra small screens */
-  @media screen and (max-width: 300px) {
-      .cancelbtn, .signupbtn {
-         width: 100%;
 
   header {
     padding-bottom: 20px;
@@ -344,13 +278,5 @@ button:hover {
     </form>
   </div>
 </aside>
-
-<section id="registration">
-  <div class="fiba-registration-widget">
-    <p>
-      <script data-fiba-embedtype="registration" data-fiba-eventid="0fcb98b8-ef3d-4f78-8210-42808309dfff" src="https://play.fiba3x3.com/embed.js" async></script>
-    </p>
-  </div>
-
 
 */

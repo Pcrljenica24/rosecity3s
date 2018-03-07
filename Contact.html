@@ -40,19 +40,14 @@
     <section id="showcase1">
       <div class="container">
         <h1><span>IF you have any more questions or inqueries, please do not hesitate to send us a message and ask.</span> </h1>
-        <form method="post" action="acknowledge.php" style="border:10px solid #ccc">
-
-          <label for="name">Name:</label>
-          <input type="text" name="name" id="name">
-
-          <label for="email">Email:</label>
-          <input type="email" name="email" id="email">
-
-          <label for="comments">Comments:</label>
-          <textarea name="comments" id="comments"></textarea>
-
-          <input type="submit" name="send" value="Send Message">
-
+        <form method="POST" action="https://formspree.io/pc3@pdx.edu" style="border:10px solid #ccc">
+          <label for="name"><b>Name: </b></label><br>
+          <input type="name" name="name" placeholder="Your name"> <br>
+          <label for="email"><b>Email: </b></label><br>
+          <input type="email" name="email" placeholder="Your email"><br>
+          <label for="comments"><b>Message: </b></label><br>
+          <textarea name="message" placeholder="Your message" rows="8" cols="80"></textarea><br>
+          <button type="submit">Send</button>
         </form>
       </div>
     </section>
