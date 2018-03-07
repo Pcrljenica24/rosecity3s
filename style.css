@@ -1,0 +1,356 @@
+body {
+  font: 15px/1.5 Herald;
+  padding: 0;
+  margin: 0;
+  background-color: #ffffff;
+}
+
+span {
+  /*background-color: #000000;*/
+}
+
+.container {
+  width: 80%;
+  margin: auto;
+  overflow: hidden;
+}
+
+.container2 {
+  width: 80%
+  margin: inherit;
+  overflow: hidden;
+  /*background: #000000;*/
+  color: #216642;
+}
+
+.dark {
+  padding: 15px;
+  background: #000000;
+  /*background-blend-mode: hue;*/
+  color: #ffffff;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+/* Header */
+
+header {
+  background: #ffffff;
+  color: #000000;
+  padding-top: 10px;
+  min-height: 70px;
+  border-bottom: #306626 10px solid;
+}
+
+header a {
+  color: #000000;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 16px;
+}
+
+header p {
+  float: left;
+  font-size: 50px;
+  font: herald;
+}
+
+header li {
+  float: left;
+  display: inline;
+  padding: 0 20px 0 20px;
+}
+
+header #branding {
+  float: left;
+}
+
+header #branding h1{
+  margin: 0;
+}
+
+header nav {
+  float: right;
+  margin-top: 10px;
+}
+
+header .highlight, header .current a {
+  color: #306626;
+  font-weight: bold;
+}
+
+header a:hover {
+  color: #353637;
+  font-weight: bold;
+}
+/* presentation */
+
+#presentation {
+  min-height: 400px;
+  background: url('/img/3-on-3-logo.jpg') no-repeat center;
+  background-size: cover;
+  text-align: center;
+  color: #306262;
+}
+
+#presentation p {
+  font-size: 50px;
+}
+
+/* statement */
+
+#statement h3{
+  font-size: 30px;
+}
+
+/* Showcase */
+
+#showcase {
+  min-height: 400px;
+  /*background: url('/img/peeps-3on3.jpg') no-repeat center;*/
+  background: #000000;
+  background-size: cover;
+  text-align: center;
+  color: #0d7a0f;
+}
+
+#showcase1 {
+  min-height: 400px;
+  background: url('/img/ROSECITY.THREES-10.jpg') no-repeat center;
+  /*background: #ffffff;*/
+  background-size: contain;
+  text-align: left;
+  color: #0d7a0f;
+}
+
+
+#showcase h1 {
+  margin-top: 100p;
+  font-size: 30px;
+  margin-bottom: 10px;
+  width: 50%;
+  float: left;
+}
+
+#showcase p {
+  font-size: 50px;
+  float: right;
+  width: 40%;
+}
+
+/* boxes */
+
+#boxes {
+  margin-top: 20px;
+}
+
+#boxes .box1 {
+  float: left;
+  text-align: center;
+  width: 40%;
+  padding: 10px;
+}
+
+#boxes .box2 {
+  float: right;
+  text-align: center;
+  width: 40%;
+  padding: 10px;
+}
+
+#boxes p {
+  text-align: left;
+  font-size: 20px;
+}
+
+/* Sidebar */
+aside#sidebar {
+  float: right;
+  width: 30%;
+  padding: 5px;
+}
+
+article#main-col {
+  float: left;
+  width: 65%;
+}
+
+aside#sidebar input, aside#sidebar textarea {
+  width: 90%;
+  /*padding: 5px;*/
+}
+
+/* BANNER */
+#BANNER {
+min-height: 180px;
+background: url('/img/FIBA-3x3-Banner-PC3.png') no-repeat center;
+background-size: contain;
+text-align: center;
+padding-top: 50px;
+color: #990a0a;
+}
+
+/* registration */
+#registration {
+  width: 100%;
+}
+
+/* footer */
+
+footer {
+  padding: 20px;
+  margin-top: 20px;
+  color: #ffffff;
+  background-color: #000000;
+  text-align: center;
+}
+
+footer span {
+  background-color: inherit;
+}
+
+footer a {
+  color: #7cff66;
+}
+
+/* Full-width input fields */
+input[type=text], input[type=email] {
+    width: 100%;
+    padding: 15px;
+    margin: 5px 0 50px 0;
+    display: inline-block;
+    border: none;
+    background: #ffffff;
+}
+
+input[type=text]:focus, input[type=email]:focus {
+    background-color: #ddd;
+    outline: none;
+}
+
+hr {
+    border: 1px solid #f1f1f1;
+    margin-bottom: 25px;
+}
+
+/* Set a style for all buttons */
+button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    opacity: 0.9;
+}
+
+button:hover {
+    opacity:1;
+}
+
+/* Extra styles for the cancel button */
+.cancelbtn {
+    padding: 14px 20px;
+    background-color: #f44336;
+}
+
+/* Float cancel and signup buttons and add an equal width */
+.cancelbtn, .signupbtn {
+  float: left;
+  width: 50%;
+}
+
+/* Add padding to container elements */
+.container {
+    padding: 16px;
+}
+
+/* Clear floats */
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+
+
+@media(max-width: 768px){
+  header #branding,
+  header nav,
+  header nav li,
+  #newsletter h1,
+  #newsletter form,
+  #boxes .box,
+  article#main-col,
+  aside#sidebar {
+    float: none;
+    text-align: center;
+    width: 100%;
+  }
+
+  /* Change styles for cancel button and signup button on extra small screens */
+  @media screen and (max-width: 300px) {
+      .cancelbtn, .signupbtn {
+         width: 100%;
+
+  header {
+    padding-bottom: 20px;
+  }
+
+  #showcase h1 {
+    margin-top: 40px;
+  }
+
+  #newsletter button {
+    display: block;
+    width: 100%;
+  }
+
+  #newsletter form input[type="email"],
+  .contact input,
+  .contact textarea,
+  .contact label{
+    width: 100%;
+    margin-bottom: 5px;
+  }
+}
+
+
+/*
+
+<aside id="sidebar">
+  <div class="dark">
+    <h3>Contact Us</h3>
+    <form class="contact" action="index.html" method="post">
+      <div>
+        <label>Name</label>
+        <input type="text">
+      </div>
+      <div>
+        <label>Email Address</label>
+        <input type="email">
+      </div>
+      <div>
+        <label>Message</label>
+        <textarea placeholder="Your Message..."></textarea>
+      </div>
+      <button class="button_1" type="submit">Send</button>
+    </form>
+  </div>
+</aside>
+
+<section id="registration">
+  <div class="fiba-registration-widget">
+    <p>
+      <script data-fiba-embedtype="registration" data-fiba-eventid="0fcb98b8-ef3d-4f78-8210-42808309dfff" src="https://play.fiba3x3.com/embed.js" async></script>
+    </p>
+  </div>
+
+
+*/
