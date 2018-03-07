@@ -10,6 +10,8 @@
     <link rel="stylesheet" href="./css/font-awesome.min.css">
   </head>
   <body>
+    <!-- The pages header. Displays the rose city logo and has tabs that take you to the home, sign up, and contact us pages. Also has widgets that link to rose citys facebook, instagram, and gofundme pages. -->
+
     <header>
       <div class="container">
         <div id="branding">
@@ -33,63 +35,51 @@
         </nav>
       </div>
     </header>
-  </head>
-  <body>
 
+    <!--Contact main section. Gets client name and email, along with their message. -->
     <section id="showcase1">
       <div class="container">
         <h1><span>IF you have any more questions or inqueries, please do not hesitate to send us a message and ask.</span> </h1>
-        <form action="/action_page.php" style="border:1px solid #ccc">
-  <div class="container">
-  <div class="container">
+        <form method="post" action="/action_page.php" style="border:10px solid #ccc">
+          <div class="container">
+            <h1>Contact Us</h1>
+            <p><span>Please fill in this form and we will promptly<br>answer any questions that you may have.</span></p>
 
-    <h1><span>Sign Up</span></h1>
-    <p><span>Please fill in this form to create an account.</span></p>
-    <hr>
+            <label for="email"><b><span>Email</span></b></label>
+            <input type="email" placeholder="Enter Email" name="email" id="email">
 
-    <label for="email"><b><span>Email</span></b></label>
-    <input type="text" placeholder="Enter Email" name="email" required>
+            <label for="name"><b><span>Name</span></b></label>
+            <input type="text" placeholder="Enter Name" name="name" id="name">
 
-    <label for="name"><b><span>Name</span></b></label>
-    <input type="password" placeholder="Enter Password" name="psw" required>
+            <label for="comments"><b><span>Enter Message Here</span></b></label>
+            <!--<textarea name="comments" rows="8" cols="80"></textarea>-->
 
-    <label for="psw-repeat"><b>Repeat Password</b></label>
-    <input type="password" placeholder="Repeat Password" name="psw-repeat" required>
+            <input type="text" placeholder="Enter message here" name="psw-repeat" required>
 
-    <label>
-      <input type="checkbox" checked="checked" name="remember" style="margin-bottom:15px"> Remember me
-    </label>
-
-    <p>By creating an account you agree to our <a href="#" style="color:dodgerblue">Terms & Privacy</a>.</p>
-
-    <div class="clearfix">
-      <button type="button" class="cancelbtn">Cancel</button>
-      <button type="submit" class="signupbtn">Sign Up</button>
-    </div>
-  </div>
-  </div>
-</form>
-
-
+            <div class="clearfix">
+              <button type="button" class="cancelbtn">Cancel</button>
+              <button type="submit" class="signupbtn">Submit</button>
+            </div>
+          </div>
+        </form>
       </div>
-
     </section>
+    <!-- Fiba banner with advertisement for the official app-->
 
     <section id="BANNER">
       <div class="fiba-banner">
       </div>
     </section>
+    <!-- Footer featuring 3 different widgets with links to rose citys facebook, gofundme, and instagram. Along with a copyright and website authors signature -->
 
     <footer>
       <p>
         <a href="http://Facebook.com/RoseCity3s"><img src="/img/facebookicon.png" alt="Facebook" style="width:70px;height:70px;"></a>
         <a href="http://gofundme.com/Portland3x3bball"><img src="/img/unnamed.png" alt="gofundme"style="width:70px;height:70px;"></a>
-        <a href="http://instagram.com/rosecity3s"><img src="/img/instagram.jpg"
+        <a href="http://instagram.com/rosecity3s"><img src="/img/instagram-blackborder.jpg"
         alt="gofundme"style="width:70px;height:70px;"></a>
       </p>
       <p><span>Copyright &copy; 2018
         Website by: <a href="https://www.linkedin.com/in/petar-crljenica/">Petar Crljenica</a></span></p>
     </footer>
-
-  </body>
 </html>
