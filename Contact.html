@@ -40,27 +40,19 @@
     <section id="showcase1">
       <div class="container">
         <h1><span>IF you have any more questions or inqueries, please do not hesitate to send us a message and ask.</span> </h1>
-        <form method="post" action="/action_page.php" style="border:10px solid #ccc">
-          <div class="container">
-            <h1>Contact Us</h1>
-            <p><span>Please fill in this form and we will promptly<br>answer any questions that you may have.</span></p>
+        <form method="post" action="acknowledge.php" style="border:10px solid #ccc">
 
-            <label for="email"><b><span>Email</span></b></label>
-            <input type="email" placeholder="Enter Email" name="email" id="email">
+          <label for="name">Name:</label>
+          <input type="text" name="name" id="name">
 
-            <label for="name"><b><span>Name</span></b></label>
-            <input type="text" placeholder="Enter Name" name="name" id="name">
+          <label for="email">Email:</label>
+          <input type="email" name="email" id="email">
 
-            <label for="comments"><b><span>Enter Message Here</span></b></label>
-            <!--<textarea name="comments" rows="8" cols="80"></textarea>-->
+          <label for="comments">Comments:</label>
+          <textarea name="comments" id="comments"></textarea>
 
-            <input type="text" placeholder="Enter message here" name="psw-repeat" required>
+          <input type="submit" name="send" value="Send Message">
 
-            <div class="clearfix">
-              <button type="button" class="cancelbtn">Cancel</button>
-              <button type="submit" class="signupbtn">Submit</button>
-            </div>
-          </div>
         </form>
       </div>
     </section>
@@ -83,3 +75,26 @@
         Website by: <a href="https://www.linkedin.com/in/petar-crljenica/">Petar Crljenica</a></span></p>
     </footer>
 </html>
+
+<!-- <form method="post" action="/action_page.php" style="border:10px solid #ccc">
+  <div class="container">
+    <h1>Contact Us</h1>
+    <p><span>Please fill in this form and we will promptly<br>answer any questions that you may have.</span></p>
+
+    <label for="email"><b><span>Email</span></b></label>
+    <input type="email" placeholder="Enter Email" name="email" id="email">
+
+    <label for="name"><b><span>Name</span></b></label>
+    <input type="text" placeholder="Enter Name" name="name" id="name">
+
+    <label for="comments"><b><span>Enter Message Here</span></b></label>
+
+    <input type="text" placeholder="Enter message here" name="psw-repeat" required>
+
+    <div class="clearfix">
+      <button type="button" class="cancelbtn">Cancel</button>
+      <button type="submit" class="signupbtn">Submit</button>
+    </div>
+  </div>
+</form>
+-->
